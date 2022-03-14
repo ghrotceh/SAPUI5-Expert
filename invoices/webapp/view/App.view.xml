@@ -1,0 +1,8 @@
+<mvc:View controllerName="logaligroup.invoices.controller.App"
+xmlns="sap.m" xmlns:mvc="sap.ui.core.mvc">
+    <Button id="_IDGenButton1" text="{i18n>showHelloButton}" press=".onShowHello"></Button>
+    <Input id="_IDGenInput1" value="{/recipient/name}" 
+            description="Hello {/recipient/name}"
+            width="60%"
+            valueLiveUpdate="true"> </Input>
+</mvc:View>
